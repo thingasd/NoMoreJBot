@@ -28,6 +28,10 @@ const initBotMethods = (bot) => {
         }
     });
 
+    bot.on(['@NoMoreJBot'], (msg) => {
+        return msg.reply.text('收皮啦撚樣');
+    });
+
 }
 
 const startBot = () => {
