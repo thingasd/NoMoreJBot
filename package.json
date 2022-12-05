@@ -7,7 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "start": "nodemon server"
+    "dev": "nodemon server",
+    "serverless": "serverless",
+		"release": "serverless deploy",
+		"purge": "serverless remove",
+		"set-webhook": "telegraf -m setWebhook"
   },
   "keywords": [],
   "author": "",
