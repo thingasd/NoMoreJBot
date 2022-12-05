@@ -1,7 +1,3 @@
-const fastify = require('fastify')({
-    logger: true
-});
-const PORT = process.env.port || 3000;
 require('dotenv').config();
 const axios = require('axios').default;
 const { Telegraf } = require('telegraf');
